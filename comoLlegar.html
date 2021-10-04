@@ -17,13 +17,16 @@
             <span class="navbar-toggler-icon"></span>
           </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand" href="#">Inscripciones</a>
+                <a class="navbar-brand" href="#">Instituto</a>
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="inicio.html">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="cursos.html">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="inscripcion.html">Inscripciones</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="comoLlegar.html">Como llegar</a>
@@ -37,8 +40,29 @@
         </div>
     </nav>
     <h2>Contacto</h2>
+    <div class="row g-3">
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+        </div>
+    </div>
+    <div class="mb-sm-2">
+        <label for="exampleFormControlInput1" class="form-label">Direccion de Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@email.com">
+    </div>
+    <div class="mb-sm-2">
+        <label for="exampleFormControlTextarea1" class="form-label">Escriba su consulta ...</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div class="input-group d-sm-inline-block">
+        <button class="btn btn-outline-secondary" type="button" id="button-addon1">Enviar</button>
+    </div>
     <h2>Lineas de Colectivo</h2>
-    <h3>Maps</h3>
+    <h3>Mapa</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13135.08500290598!2d-58.49623516565!3d-34.60994543732418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9d86fc003ef%3A0x95ecf74fb136b6b1!2sYour%20Own%20Way%20Instituto%20de%20idiomas!5e0!3m2!1sen!2sar!4v1633309690426!5m2!1sen!2sar"
+        width="400" height="500" style="border:0;" allowfullscreen="false" loading="lazy"></iframe>
 </body>
 
 </html>
