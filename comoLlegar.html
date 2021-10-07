@@ -40,24 +40,27 @@
         </div>
     </nav>
     <h2>Contacto</h2>
-    <div class="row g-3">
-        <div class="col">
-            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+            </div>
+            <div class="col-md-3">
+                <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+            </div>
         </div>
-        <div class="col">
-            <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+        <div class="col-md-4">
+            <label for="exampleFormControlInput1" class="form-label">Direccion de Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@email.com">
         </div>
-    </div>
-    <div class="mb-sm-2">
-        <label for="exampleFormControlInput1" class="form-label">Direccion de Email</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@email.com">
-    </div>
-    <div class="mb-sm-2">
-        <label for="exampleFormControlTextarea1" class="form-label">Escriba su consulta ...</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
-    <div class="input-group d-sm-inline-block">
-        <button class="btn btn-outline-secondary" type="button" id="button-addon1">Enviar</button>
+        <div class="col-md-4">
+            <label for="exampleFormControlTextarea1" class="form-label">Escriba su consulta ...</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+        </div>
+        <div class="input-group d-sm-inline-block">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon1">Enviar</button>
+        </div>
     </div>
     <h2>Lineas de Colectivo</h2>
     <h3>Mapa</h3>
