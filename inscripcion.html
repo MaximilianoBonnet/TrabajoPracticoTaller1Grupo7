@@ -13,61 +13,66 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <body background="img/logos/New-Logo-Institut.jpg">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="inicio.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="cursos.html">Cursos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="inscripcion.html">Inscripciones</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="comoLlegar.html">Como llegar</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Login" aria-label="Login">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="inicio.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cursos.html">Cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="inscripcion.html">Inscripciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="comoLlegar.html">Como llegar</a>
+                        </li>
+                        <li>
+                            <h1 class="display-6"> American and British English</h1>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+
+                        <button href="login.html" class="btn btn-outline-success" type="submit">Login</button>
+                    </form>
+                </div>
             </div>
-        </div>
-    </nav>
-    <h3>Inscripcion a YOUR OWN WAY Institute</h3>
-    <div class="flex-container">
-        <div class="row">
+            </div>
+        </nav>
+        <h3>Inscripcion a YOUR OWN WAY Institute</h3>
+        <div class="flex-container">
+            <div class="row">
+                <div class="col-md-4">
+                    <label for="exampleFormNombre" class="form-label">Nombres</label>
+                    <input type="nombres" class="form-control" id="exampleFormNombre" placeholder="Nombres" aria-label="Nombres">
+                </div>
+                <div class="col-md-4">
+                    <label for="exampleFormApellido" class="form-label">Apellidos</label>
+                    <input type="apellidos" class="form-control" id="exampleFormApellido" placeholder="Apellidos" aria-label="Apellidos">
+                </div>
+            </div>
             <div class="col-md-4">
-                <label for="exampleFormNombre" class="form-label">Nombres</label>
-                <input type="nombres" class="form-control" id="exampleFormNombre" placeholder="Nombres" aria-label="Nombres">
+                <label for="exampleFormControlInput1" class="form-label">Direccion de Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@email.com">
             </div>
             <div class="col-md-4">
-                <label for="exampleFormApellido" class="form-label">Apellidos</label>
-                <input type="apellidos" class="form-control" id="exampleFormApellido" placeholder="Apellidos" aria-label="Apellidos">
+                <label for="exampleFormControlInput1" class="form-label">DNI</label>
+                <input type="dni" class="form-control" id="exampleFormControlInput1" placeholder="Solo numeros">
+            </div>
+            <div class="col-md-4">
+                <label for="exampleFormControlInput1" class="form-label">Telefono</label>
+                <input type="Telefono" class="form-control" id="exampleFormControlInput1" placeholder="Solo numeros">
+            </div>
+            <div class="input-group d-sm-inline-block">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon1">Enviar</button>
             </div>
         </div>
-        <div class="col-md-4">
-            <label for="exampleFormControlInput1" class="form-label">Direccion de Email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@email.com">
-        </div>
-        <div class="col-md-4">
-            <label for="exampleFormControlInput1" class="form-label">DNI</label>
-            <input type="dni" class="form-control" id="exampleFormControlInput1" placeholder="Solo numeros">
-        </div>
-        <div class="col-md-4">
-            <label for="exampleFormControlInput1" class="form-label">Telefono</label>
-            <input type="Telefono" class="form-control" id="exampleFormControlInput1" placeholder="Solo numeros">
-        </div>
-        <div class="input-group d-sm-inline-block">
-            <button class="btn btn-outline-secondary" type="button" id="button-addon1">Enviar</button>
-        </div>
-    </div>
-</body>
+    </body>
 
 </html>
