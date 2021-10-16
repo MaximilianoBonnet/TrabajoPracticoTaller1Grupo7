@@ -3,4 +3,17 @@
     background-color: aqua;
 }
 
->>>>>>>2fa9436e956fb6ec96c7fc012eacfa1f519977dd
+.flex-container {
+    background-color: #FCFFA6;
+    width: 570px;
+    height: auto;
+    text-align: auto;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: 5%;
+    margin-top: 2%;
+    margin-left: 5%;
+    border-radius: 5px;
+    text-justify: auto;
+}
