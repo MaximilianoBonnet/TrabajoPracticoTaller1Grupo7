@@ -2,7 +2,6 @@ button {
     background-color: FCFFA6;
 }
 
-<<<<<<< HEAD
 nav {
     background-color: B5DEFF;
     background-image: linear-gradient(CAB8FF, FCFFA6);
@@ -19,7 +18,8 @@ nav-item {
 h1 {
     background-color: B5DEFF;
     background-image: linear-gradient(CAB8FF, FCFFA6);
-=======
+}
+
 .flex-container {
     background-color: #FCFFA6;
     width: 570px;
@@ -33,5 +33,4 @@ h1 {
     margin-left: 5%;
     border-radius: 5px;
     text-justify: auto;
->>>>>>> 276b90e9b99f74cc12f8cea854b5ddfb4d65a930
 }
