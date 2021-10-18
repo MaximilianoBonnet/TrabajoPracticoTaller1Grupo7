@@ -1,6 +1,21 @@
-<<<<<<< HEAD # body background-color: rgb(255, 255, 128);
-=======div {
-    background-color: aqua;
+button {
+    background-color: FCFFA6;
 }
 
->>>>>>>2fa9436e956fb6ec96c7fc012eacfa1f519977dd
+nav {
+    background-color: B5DEFF;
+    background-image: linear-gradient(CAB8FF, FCFFA6);
+}
+
+li {
+    background-color: CAB8FF;
+}
+
+nav-item {
+    background-color: CAB8FF;
+}
+
+h1 {
+    background-color: B5DEFF;
+    background-image: linear-gradient(CAB8FF, FCFFA6);
+}
