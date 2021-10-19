@@ -46,7 +46,7 @@
         border: 5%;
         margin-top: 2%;
         margin-left: 5%;
-        border-radius: 5px;
+        border-radius: 20px;
         text-justify: auto;
     }
     
@@ -55,7 +55,16 @@
         text-align: right;
         color: rgba(0, 0, 0, 0.5);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        padding-right: 5px;
-        border-radius: 5px;
+        padding-right: 30px;
+        border-radius: 5 0px;
+        float: inline-end;
+    }
+    
+    .titleQuienesSomos {
+        background-color: #B5DEFF;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-right: 50px;
+        border-radius: 50px;
         float: inline-end;
     }
