@@ -1,22 +1,22 @@
     button {
-        background-color: FCFFA6;
+        background-color: #FCFFA6;
     }
     
-    nav {
-        background-color: B5DEFF;
+    .nav {
+        background-color: #B5DEFF;
         background-image: linear-gradient(CAB8FF, FCFFA6);
     }
     
-    li {
-        background-color: CAB8FF;
+    navbar navbar-expand-lg navbar-light bg-light {
+        background-color: #CAB8FF;
     }
     
-    nav-item {
-        background-color: CAB8FF;
+    .nav-item {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     
-    h1 {
-        background-color: B5DEFF;
+    .h1 {
+        background-color: #B5DEFF;
         background-image: linear-gradient(CAB8FF, FCFFA6);
     }
     
@@ -32,6 +32,21 @@
         margin-top: 2%;
         margin-left: 5%;
         border-radius: 5px;
+        text-justify: auto;
+    }
+    
+    .body-QuienesSomos {
+        background-color: B5DEFF#FCFFA6;
+        width: auto;
+        height: auto;
+        text-align: auto;
+        padding-left: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        border: 5%;
+        margin-top: 2%;
+        margin-left: 5%;
+        border-radius: 20px;
         text-justify: auto;
     }
     
@@ -51,20 +66,34 @@
     }
     
     .display-6 {
-        background-color: #B5DEFF;
         text-align: right;
         color: rgba(0, 0, 0, 0.5);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         padding-right: 30px;
         border-radius: 5 0px;
         float: inline-end;
+        color: rgba(0, 0, 0, 0.5);
     }
     
     .titleQuienesSomos {
-        background-color: #B5DEFF;
-        color: rgba(0, 0, 0, 0.5);
+        background-color: #FCFFA6;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         padding-right: 50px;
         border-radius: 50px;
         float: inline-end;
+    }
+    
+    .body-Certificaciones {
+        background-color: #FCFFA6;
+        width: auto;
+        height: auto;
+        text-align: auto;
+        padding-left: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        border: 5%;
+        margin-top: 2%;
+        margin-left: 5%;
+        border-radius: 20px;
+        text-justify: auto;
     }
