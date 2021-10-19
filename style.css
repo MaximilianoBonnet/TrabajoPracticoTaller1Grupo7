@@ -14,7 +14,8 @@
     .nav-item {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-    body{
+    
+    body {
         background-image: url(img/logos/New-Logo-Institut.jpg);
         background-repeat: no-repeat;
         background-position: auto;
@@ -89,7 +90,30 @@
         float: inline-end;
     }
     
+    .titleNuestrasActividades {
+        background-color: #FCFFA6;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-right: 50px;
+        border-radius: 50px;
+        float: inline-end;
+    }
+    
     .body-Certificaciones {
+        background-color: #FCFFA6;
+        width: auto;
+        height: auto;
+        text-align: auto;
+        padding-left: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        border: 5%;
+        margin-top: 2%;
+        margin-left: 5%;
+        border-radius: 20px;
+        text-justify: auto;
+    }
+    
+    .bodyNuestrasActividades {
         background-color: #FCFFA6;
         width: auto;
         height: auto;
