@@ -127,3 +127,17 @@
         border-radius: 20px;
         text-justify: auto;
     }
+    
+    .accordion-body {
+        background-color: #FCFFA6;
+        width: auto;
+        height: auto;
+        text-align: auto;
+        padding-left: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        border: 5%;
+        margin-top: 2%;
+        border-radius: 20px;
+        text-justify: auto;
+    }
