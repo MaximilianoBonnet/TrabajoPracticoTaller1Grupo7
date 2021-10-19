@@ -14,6 +14,12 @@
     nav-item {
         background-color: CAB8FF;
     }
+    body{
+        background-image: url(img/logos/New-Logo-Institut.jpg);
+        background-repeat: no-repeat;
+        background-position: auto;
+        background-size: cover;
+    }
     
     h1 {
         background-color: B5DEFF;
