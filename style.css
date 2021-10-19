@@ -49,3 +49,13 @@
         border-radius: 5px;
         text-justify: auto;
     }
+    
+    .display-6 {
+        background-color: #B5DEFF;
+        text-align: right;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-right: 5px;
+        border-radius: 5px;
+        float: inline-end;
+    }
