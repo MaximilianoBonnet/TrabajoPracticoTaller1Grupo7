@@ -10,22 +10,30 @@
     .nav-item {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
+    
     .imgNav {
         width: 80px;
         height: 65px;
     }
-    input[type = "radio"]{ display:none;}
-    input[type = "radio"]:checked ~ label{color:orange;}
-    .clasificacion{
+    
+    input[type="radio"] {
+        display: none;
+    }
+    
+    input[type="radio"]:checked~label {
+        color: orange;
+    }
+    
+    .clasificacion {
         direction: rtl;
         unicode-bidi: bidi-override;
     }
+    
     body {
         background-image: url(img/logos/New-Logo-Institut.jpg);
         background-repeat: no-repeat;
         background-position: auto;
         background-size: cover;
-        
     }
     
     .h1 {
@@ -159,5 +167,20 @@
         border: 2%;
         margin-top: 2%;
         border-radius: 2px;
+        text-justify: auto;
+    }
+    
+    .administrador {
+        background-color: #FCFFA6;
+        width: 250px;
+        height: auto;
+        text-align: center;
+        padding-left: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        border: 5%;
+        margin-top: 2%;
+        margin-left: 2%;
+        border-radius: 5px;
         text-justify: auto;
     }
