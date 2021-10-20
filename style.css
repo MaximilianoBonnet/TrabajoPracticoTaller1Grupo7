@@ -14,11 +14,18 @@
         width: 80px;
         height: 65px;
     }
+    input[type = "radio"]{ display:none;}
+    input[type = "radio"]:checked ~ label{color:orange;}
+    .clasificacion{
+        direction: rtl;
+        unicode-bidi: bidi-override;
+    }
     body {
         background-image: url(img/logos/New-Logo-Institut.jpg);
         background-repeat: no-repeat;
         background-position: auto;
         background-size: cover;
+        
     }
     
     .h1 {
