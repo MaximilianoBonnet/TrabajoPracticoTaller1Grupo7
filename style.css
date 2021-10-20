@@ -10,7 +10,10 @@
     .nav-item {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-    
+    .imgNav {
+        width: 80px;
+        height: 65px;
+    }
     body {
         background-image: url(img/logos/New-Logo-Institut.jpg);
         background-repeat: no-repeat;
