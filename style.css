@@ -156,20 +156,6 @@
         text-justify: auto;
     }
     
-    .tituloBritish {
-        background-color: #FCFFA6;
-        width: auto;
-        height: auto;
-        text-align: auto;
-        padding-left: 1%;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        border: 2%;
-        margin-top: 2%;
-        border-radius: 2px;
-        text-justify: auto;
-    }
-    
     .administrador {
         background-color: #FCFFA6;
         width: 250px;
