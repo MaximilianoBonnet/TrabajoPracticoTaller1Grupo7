@@ -71,7 +71,7 @@
      background-color: #FCFFA6;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      padding-right: 50px;
-     border-radius: 50px;
+     border-radius: 100px;
      float: inline-end;
  }
  
@@ -126,4 +126,8 @@
      margin-left: 2%;
      border-radius: 5px;
      text-justify: auto;
+ }
+ 
+ .carousel-item {
+     margin-top: 50px;
  }
