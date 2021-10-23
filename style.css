@@ -68,7 +68,6 @@
  }
  
  .titleQuienesSomos {
-     background-color: #FCFFA6;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      padding-right: 50px;
      border-radius: 100px;
@@ -76,10 +75,9 @@
  }
  
  .titleNuestrasActividades {
-     background-color: #FCFFA6;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      padding-right: 50px;
-     border-radius: 50px;
+     border-radius: 100px;
      float: inline-end;
  }
  
