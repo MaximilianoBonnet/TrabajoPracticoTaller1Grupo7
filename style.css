@@ -11,6 +11,10 @@
      display: none;
  }
  
+ .carouselSlide {
+     padding-bottom: 25px;
+ }
+ 
  input[type="radio"]:checked~label {
      color: orange;
  }
