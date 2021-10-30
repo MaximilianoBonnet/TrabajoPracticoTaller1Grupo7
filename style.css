@@ -26,9 +26,37 @@
  
  body {
      background-image: url(img/logos/New-Logo-Institut.jpg);
+     filter: alpha(opacity=40);
+     height: 100%;
+     width: 100%;
+     z-index: 0.1;
      background-repeat: no-repeat;
      background-position: auto;
      background-size: cover;
+ }
+ 
+ .body-index {
+     background-image: none !important;
+ }
+ 
+ .quienes-somos {
+     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+     color: #0a0900;
+     font-size: 18px;
+     font-weight: 400;
+     text-align: center;
+     background: #FCFFA6;
+     margin: 0 0 25px;
+     overflow: hidden;
+     padding: 20px;
+     border-radius: 35px 0px 35px 0px;
+     -moz-border-radius: 35px 0px 35px 0px;
+     -webkit-border-radius: 35px 0px 35px 0px;
+     border: 2px solid #000103;
+ }
+ 
+ .body-QuienesSomos {
+     background-image: none !important;
  }
  
  .flex-container {
@@ -46,6 +74,7 @@
      text-justify: auto;
  }
  
+<<<<<<< HEAD
  .quienes-somos {
      color: rgb(1, 15, 15);
      background-color: rgb(241, 183, 57);
@@ -62,6 +91,8 @@
      text-justify: auto;
  }
  
+=======
+>>>>>>> a59a84b61ac23b41e5ad44c7197c3de38bf45a36
  .display-6 {
      text-align: right;
      color: rgba(0, 0, 0, 0.5);
@@ -73,6 +104,7 @@
  }
  
  .titleQuienesSomos {
+<<<<<<< HEAD
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      padding-right: 50px;
      border-radius: 100px;
@@ -100,6 +132,21 @@
      height: auto;
      text-align: auto;
      text-justify: auto;
+=======
+     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+     color: #f6f8f8;
+     font-size: 18px;
+     font-weight: 400;
+     text-align: center;
+     background: #050500;
+     margin: 0 0 25px;
+     overflow: hidden;
+     padding: 20px;
+     border-radius: 35px 0px 35px 0px;
+     -moz-border-radius: 35px 0px 35px 0px;
+     -webkit-border-radius: 35px 0px 35px 0px;
+     border: 2px solid #010511;
+>>>>>>> a59a84b61ac23b41e5ad44c7197c3de38bf45a36
  }
  
  .accordion-body {
