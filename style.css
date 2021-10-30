@@ -1,210 +1,140 @@
- .nav-item {
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
- }
- 
- .imgNav {
-     width: 80px;
-     height: 65px;
- }
- 
- input[type="radio"] {
-     display: none;
- }
- 
- .carouselSlide {
-     padding-bottom: 25px;
- }
- 
- input[type="radio"]:checked~label {
-     color: orange;
- }
- 
- .clasificacion {
-     direction: rtl;
-     unicode-bidi: bidi-override;
- }
- 
- body {
-     background-image: url(img/logos/New-Logo-Institut.jpg);
-     filter: alpha(opacity=40);
-     height: 100%;
-     width: 100%;
-     z-index: 0.1;
-     background-repeat: no-repeat;
-     background-position: auto;
-     background-size: cover;
- }
- 
- .body-index {
-     background-image: none !important;
- }
- 
- .flex-container {
-     background-color: #FCFFA6;
-     width: 570px;
-     height: auto;
-     text-align: auto;
-     padding-left: 1%;
-     padding-top: 1%;
-     padding-bottom: 1%;
-     border: 5%;
-     margin-top: 2%;
-     margin-left: 5%;
-     border-radius: 5px;
-     text-justify: auto;
- }
- 
- .quienes-somos {
-     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-     color: #0a0900;
-     font-size: 18px;
-     font-weight: 400;
-     text-align: center;
-     background: #FCFFA6;
-     margin: 0 0 25px;
-     overflow: hidden;
-     padding: 20px;
-     border-radius: 35px 0px 35px 0px;
-     -moz-border-radius: 35px 0px 35px 0px;
-     -webkit-border-radius: 35px 0px 35px 0px;
-     border: 2px solid #000103;
- }
- 
-<<<<<<< HEAD
-<<<<<<< HEAD
- .body-QuienesSomos {
-     background-image: none !important;
- }
- 
- .flex-container {
-     background-color: #ec0e19;
-     width: 570px;
-     height: auto;
-     text-align: auto;
-     padding-left: 1%;
-     padding-top: 1%;
-     padding-bottom: 1%;
-     border: 5%;
-     margin-top: 2%;
-     margin-left: 5%;
-     border-radius: 5px;
-     text-justify: auto;
- }
- 
-<<<<<<< HEAD
- .quienes-somos {
-     color: rgb(1, 15, 15);
-     background-color: rgb(241, 183, 57);
-     width: auto;
-     height: auto;
-     text-align: auto;
-     padding-left: 1%;
-     padding-top: 1%;
-     padding-bottom: 1%;
-     border: 5%;
-     margin-top: 2%;
-     margin-left: 5%;
-     border-radius: 20px;
-     text-justify: auto;
- }
- 
-=======
->>>>>>> a59a84b61ac23b41e5ad44c7197c3de38bf45a36
-=======
->>>>>>> parent of a59a84b (background img none)
-=======
->>>>>>> parent of a59a84b (background img none)
- .display-6 {
-     text-align: right;
-     color: rgba(0, 0, 0, 0.5);
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-     padding-right: 30px;
-     border-radius: 5 0px;
-     float: inline-end;
-     color: rgba(0, 0, 0, 0.5);
- }
- 
- .titleQuienesSomos {
-<<<<<<< HEAD
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-     padding-right: 50px;
-     border-radius: 100px;
-     float: inline-end;
- }
- 
- .titleNuestrasActividades {
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-     padding-right: 50px;
-     border-radius: 100px;
-     float: inline-end;
- }
- 
- .body-Certificaciones {
-     background-color: #faa930;
-     width: auto;
-     height: auto;
-     text-align: auto;
-     text-justify: auto;
- }
- 
- .bodyNuestrasActividades {
-     background-color: #f78528;
-     width: auto;
-     height: auto;
-     text-align: auto;
-     text-justify: auto;
-=======
-     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-     color: #f6f8f8;
-     font-size: 18px;
-     font-weight: 400;
-     text-align: center;
-     background: #050500;
-     margin: 0 0 25px;
-     overflow: hidden;
-     padding: 20px;
-     border-radius: 35px 0px 35px 0px;
-     -moz-border-radius: 35px 0px 35px 0px;
-     -webkit-border-radius: 35px 0px 35px 0px;
-     border: 2px solid #010511;
->>>>>>> a59a84b61ac23b41e5ad44c7197c3de38bf45a36
- }
- 
- .accordion-body {
-     background-color: #FCFFA6;
-     width: auto;
-     height: auto;
-     text-align: auto;
-     padding-left: 1%;
-     padding-top: 1%;
-     padding-bottom: 1%;
-     border: 5%;
-     margin-top: 2%;
-     border-radius: 20px;
-     text-justify: auto;
- }
- 
- .administrador {
-     background-color: #FCFFA6;
-     width: 250px;
-     height: auto;
-     text-align: center;
-     padding-left: 1%;
-     padding-top: 1%;
-     padding-bottom: 1%;
-     border: 5%;
-     margin-top: 2%;
-     margin-left: 2%;
-     border-radius: 5px;
-     text-justify: auto;
- }
- 
- .carousel-item {
-     margin-top: 50px;
- }
- 
- .cardfooter {
-     /* Like the header, the footer will have a static height - it shouldn't grow or shrink.  */
-     /* 0 flex-grow, 0 flex-shrink, auto flex-basis */
-     flex: 0 0 auto;
- }
+.nav-item {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imgNav {
+    width: 80px;
+    height: 65px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.carouselSlide {
+    padding-bottom: 25px;
+}
+
+input[type="radio"]:checked~label {
+    color: orange;
+}
+
+.clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+body {
+    background-image: url(img/logos/New-Logo-Institut.jpg);
+    filter: alpha(opacity=40);
+    height: 100%;
+    width: 100%;
+    z-index: 0.1;
+    background-repeat: no-repeat;
+    background-position: auto;
+    background-size: cover;
+}
+
+.body-index {
+    background-image: none !important;
+}
+
+.quienes-somos {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: #0a0900;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    background: #FCFFA6;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border: 2px solid #000103;
+}
+
+.body-QuienesSomos {
+    background-image: none !important;
+}
+
+.flex-container {
+    background-color: #FCFFA6;
+    width: 570px;
+    height: auto;
+    text-align: auto;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: 5%;
+    margin-top: 2%;
+    margin-left: 5%;
+    border-radius: 5px;
+    text-justify: auto;
+}
+
+.display-6 {
+    text-align: right;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 30px;
+    border-radius: 5 0px;
+    float: inline-end;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.titleQuienesSomos {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: #f6f8f8;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    background: #050500;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border: 2px solid #010511;
+}
+
+.accordion-body {
+    background-color: #FCFFA6;
+    width: auto;
+    height: auto;
+    text-align: auto;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: 5%;
+    margin-top: 2%;
+    border-radius: 20px;
+    text-justify: auto;
+}
+
+.administrador {
+    background-color: #FCFFA6;
+    width: 250px;
+    height: auto;
+    text-align: center;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: 5%;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-radius: 5px;
+    text-justify: auto;
+}
+
+.carousel-item {
+    margin-top: 50px;
+}
+
+.cardfooter {
+    /* Like the header, the footer will have a static height - it shouldn't grow or shrink.  */
+    /* 0 flex-grow, 0 flex-shrink, auto flex-basis */
+    flex: 0 0 auto;
+}
