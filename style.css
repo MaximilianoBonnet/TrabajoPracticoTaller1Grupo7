@@ -39,21 +39,6 @@
      background-image: none !important;
  }
  
- .flex-container {
-     background-color: #FCFFA6;
-     width: 570px;
-     height: auto;
-     text-align: auto;
-     padding-left: 1%;
-     padding-top: 1%;
-     padding-bottom: 1%;
-     border: 5%;
-     margin-top: 2%;
-     margin-left: 5%;
-     border-radius: 5px;
-     text-justify: auto;
- }
- 
  .quienes-somos {
      font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
      color: #0a0900;
@@ -68,6 +53,25 @@
      -moz-border-radius: 35px 0px 35px 0px;
      -webkit-border-radius: 35px 0px 35px 0px;
      border: 2px solid #000103;
+ }
+ 
+ .body-QuienesSomos {
+     background-image: none !important;
+ }
+ 
+ .flex-container {
+     background-color: #FCFFA6;
+     width: 570px;
+     height: auto;
+     text-align: auto;
+     padding-left: 1%;
+     padding-top: 1%;
+     padding-bottom: 1%;
+     border: 5%;
+     margin-top: 2%;
+     margin-left: 5%;
+     border-radius: 5px;
+     text-justify: auto;
  }
  
  .display-6 {
