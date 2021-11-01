@@ -138,3 +138,7 @@ body {
     /* 0 flex-grow, 0 flex-shrink, auto flex-basis */
     flex: 0 0 auto;
 }
+
+.card {
+    width: 10rem;
+}
