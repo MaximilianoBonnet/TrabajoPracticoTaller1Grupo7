@@ -141,4 +141,7 @@ body {
 
 .cards {
     width: 10rem;
+    height: auto;
+    color: black;
+    background-color: #f6f8f8
 }
