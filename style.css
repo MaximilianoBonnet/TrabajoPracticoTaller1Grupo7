@@ -145,3 +145,15 @@ body {
     color: black;
     background-color: #f6f8f8
 }
+
+.formulariocomentarios {
+    width: 700px;
+    height: auto;
+    text-align: center;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: 5%;
+    margin: 2%;
+    background-color: #f6f8f8
+}
