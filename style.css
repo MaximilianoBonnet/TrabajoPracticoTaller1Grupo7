@@ -106,18 +106,22 @@ body {
 
 .american-british {
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-    color: #f6f8f8;
-    font-size: 18px;
-    font-weight: 300;
+    color: #fbffff;
+    font-size: 20px;
+    font-weight: 200;
     text-align: center;
-    background: #585846;
-    margin: 0 0 25px;
+    text-decoration-line: inherit;
+    background: #0c0c00;
+    margin: 0 0 10px;
     overflow: hidden;
-    padding: 10px;
-    border-radius: 35px 0px 35px 0px;
-    -moz-border-radius: 35px 0px 35px 0px;
-    -webkit-border-radius: 35px 0px 35px 0px;
-    border: 2px solid #050500;
+    padding: 2px;
+    border-radius: 10px 5px 10px 5px;
+    -moz-border-radius: 10px 0px 10px 0px;
+    -webkit-border-radius: 10px 5px 10px 5px;
+    border: 1px solid #050500;
+    margin-left: 400px;
+    margin-top: 10px;
+    margin-right: 400px;
 }
 
 .accordion-body {

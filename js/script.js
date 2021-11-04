@@ -1,4 +1,4 @@
-console.log("iniciar nuestro js");
+/*console.log("iniciar nuestro js");
 let array_colores = new Array("btn-info", "btn-secondary", "btn-dark");
 
 function colorCard(estado) {
@@ -32,4 +32,4 @@ function mostrarOcultar(show) {
     } else {
         row.classList.add("d-none");
     }
-}
+}*/
