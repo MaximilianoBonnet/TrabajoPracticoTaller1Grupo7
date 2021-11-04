@@ -25,7 +25,7 @@ input[type="radio"]:checked~label {
 }
 
 body {
-    background-image: url(img/logos/New-Logo-Institut.jpg);
+    background-color: rgba(180, 170, 157, 0.664);
     filter: alpha(opacity=40);
     height: 100%;
     width: 100%;
@@ -141,7 +141,7 @@ body {
 
 .cards {
     width: 10rem;
-    height: auto;
+    height: 25rem;
     color: black;
     background-color: #f6f8f8
 }
