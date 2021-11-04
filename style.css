@@ -25,7 +25,7 @@ input[type="radio"]:checked~label {
 }
 
 body {
-    background-color: rgba(180, 170, 157, 0.664);
+    background-color: rgba(247, 245, 224, 0.664);
     filter: alpha(opacity=40);
     height: 100%;
     width: 100%;
@@ -141,9 +141,10 @@ body {
 
 .cards {
     width: 10rem;
-    height: 25rem;
+    height: 29rem;
     color: black;
     background-color: #f6f8f8
+    
 }
 
 .formulariocomentarios {
