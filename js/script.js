@@ -28,7 +28,7 @@ function colorCard(estado) {
 function mostrarOcultar(show) {
     let row = document.getElementById("mostrarOcultar");
     if (show == true) {
-        row.classList.remove("d-none";)
+        row.classList.remove("d-none");
     } else {
         row.classList.add("d-none");
     }

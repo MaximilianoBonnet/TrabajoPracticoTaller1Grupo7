@@ -36,7 +36,7 @@ body {
 }
 
 .body-index {
-    background-image: none !important;
+    background-color: rgba(180, 170, 157, 0.664);
 }
 
 .quienes-somos {
@@ -56,7 +56,11 @@ body {
 }
 
 .body-QuienesSomos {
-    background-image: none !important;
+    background-color: rgba(180, 170, 157, 0.664);
+}
+
+.body-inscripcion {
+    background-color: rgba(180, 170, 157, 0.664);
 }
 
 .flex-container {
@@ -98,6 +102,22 @@ body {
     -moz-border-radius: 35px 0px 35px 0px;
     -webkit-border-radius: 35px 0px 35px 0px;
     border: 2px solid #010511;
+}
+
+.american-british {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: #f6f8f8;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    background: #585846;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border: 2px solid #050500;
 }
 
 .accordion-body {
