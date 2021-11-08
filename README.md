@@ -1,9 +1,16 @@
-# TrabajoPracticoTaller1Grupo7
-
-Trabajo practico taller
-Integrantes:
-Maximiliano Bonnet - maxbonn1975@gmail.com
-Esteban Ferrari - estebanalejandroferrari@gmail.com
-Anabella Lamour - ana.lamour@outlook.com
-Taynah Cardoso - taynahcardoso@hotmail.com
-Victoria Cordoba - vicordoba@abc.gob.ar
+https://github.com/MaximilianoBonnet/TrabajoPracticoTaller1Grupo7/tree/main/img
+https://github.com/MaximilianoBonnet/TrabajoPracticoTaller1Grupo7/tree/main/js
+https://github.com/MaximilianoBonnet/TrabajoPracticoTaller1Grupo7/blob/main/1stChildren.html
+https://github.com/MaximilianoBonnet/TrabajoPracticoTaller1Grupo7/blob/main/2ndTeens.html
+https://github.com/MaximilianoBonnet/TrabajoPracticoTaller1Grupo7/blob/main/3rdAdult.html
+https://github.com/MaximilianoBonnet/TrabajoPracticoTaller1Grupo7/blob/main/QuienesSomos.html
+https://github.com/MaximilianoBonnet/TrabajoPracticoTaller1Grupo7/blob/main/TallerEscyOr.html
+https://github.com/MaximilianoBonnet/TrabajoPracticoTaller1Grupo7/blob/main/comoLlegar.html
+https://github.com/MaximilianoBonnet/TrabajoPracticoTaller1Grupo7/blob/main/contacto.html
+https://github.com/MaximilianoBonnet/TrabajoPracticoTaller1Grupo7/blob/main/cursos.html
+https://github.com/MaximilianoBonnet/TrabajoPracticoTaller1Grupo7/blob/main/fce.html
+https://github.com/MaximilianoBonnet/TrabajoPracticoTaller1Grupo7/blob/main/inicio.html
+https://github.com/MaximilianoBonnet/TrabajoPracticoTaller1Grupo7/blob/main/inscripcion.html
+https://github.com/MaximilianoBonnet/TrabajoPracticoTaller1Grupo7/blob/main/intensiveI.html
+https://github.com/MaximilianoBonnet/TrabajoPracticoTaller1Grupo7/blob/main/login.html
+https://github.com/MaximilianoBonnet/TrabajoPracticoTaller1Grupo7/blob/main/style.css
