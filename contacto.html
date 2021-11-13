@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Contacto</title>
@@ -60,27 +62,27 @@
         <div class="flex-container">
             <div class="col-md-4">
                 <label for="exampleFormNombre" class="form-label">Nombres</label>
-                <input type="nombres" class="form-control" id="exampleFormNombre" placeholder="Nombres" aria-label="Nombres">
+                <input id="nombre" type="nombres" class="form-control" id="exampleFormNombre" placeholder="Nombres" aria-label="Nombres">
             </div>
             <div class="col-md-4">
                 <label for="exampleFormApellido" class="form-label">Apellidos</label>
-                <input type="apellidos" class="form-control" id="exampleFormApellido" placeholder="Apellidos" aria-label="Apellidos">
+                <input id="apellido" type="apellidos" class="form-control" id="exampleFormApellido" placeholder="Apellidos" aria-label="Apellidos">
             </div>
             <div class="col-md-4">
                 <label for="exampleFormTelefono" class="form-label">Telefono</label>
-                <input type="Telefono" class="form-control" id="exampleFormTelefono" placeholder="Telefono" aria-label="Telefono">
+                <input id="telefono" type="Telefono" class="form-control" id="exampleFormTelefono" placeholder="Telefono" aria-label="Telefono">
             </div>
             <div class="col-md-4">
                 <label for="exampleFormControlInput1" class="form-label">Direccion de Email</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@email.com">
+                <input id="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@email.com">
             </div>
             <div class="col-md-8">
                 <label for="exampleFormControlTextarea1" class="form-label">Escriba su consulta ...</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+                <textarea id="info" class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
             </div>
             <br>
             <div>
-                <button onclick="VentanaModal" class="btn btn-success" data-toggle="modal" data-target="VentanaModal">Enviar</button>
+                <button class="btn btn-success" data-toggle="modal" data-target="VentanaModal" onclick="enviarDatos()">Enviar</button>
             </div>
     </center>
     <div class="modal fade" id="VentanaModal" tabindex="-1" role="dialog" aria-labelledby="tituloVentana" aria-hidden="true">
@@ -132,6 +134,10 @@
 
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js " integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ " crossorigin="anonymous "></script>
+    <script src="js/script.js "></script>
 </body>
 
 </html>
