@@ -25,18 +25,17 @@ function enviarDatos() {
         modalMostrar("Falta ingresar telefono \n");
         estado = false;
     } else if (email.value == '') {
-        amodalMostrart("Falta ingresar Email");
+        modalMostrar("Falta ingresar Email");
         estado = false;
     } else if (textarea.value == '') {
-        alemodalMostrarrt("Falta ingresar su consulta \n");
+        modalMostrar("Falta ingresar su consulta \n");
         estado = false;
     }
     if (estado = true) {
-        almodalMostrarert("Mensaje enviado con éxito. \n Nos pondremos en contacto a la brevedad");
+        modalMostrar("Mensaje enviado con éxito. \n Nos pondremos en contacto a la brevedad");
     }
 
 }
-
 
 function modalMostrar(title, description) {
     let elementTitle = document.getElementById('exampleModalLabel');
@@ -46,11 +45,11 @@ function modalMostrar(title, description) {
     let elementDescription = document.getElementById('textModal');
     description = document.createTextNode(description);
 
-    elementTitle.innerHTML = '';
-    elementDescription.innerHTML = '';
+    elementTitle.innerHTML = title;
+    elementDescription.innerHTML = description;
 
 
-    var textModal = new bootstrap.Modal(document.getElementById('staticBackdrop'), {
+    var myModal = new bootstrap.Modal(document.getElementById('staticBackdrop'), {
         keyboard: false
     })
     myModal.show();
