@@ -132,7 +132,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="col-xl-4 col-md-6 col-sm-12 " id="margen ">
                             <br>
                             <div class="card shadow ">
@@ -252,7 +251,23 @@
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js " integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ " crossorigin="anonymous "></script>
     <script src="js/script.js "></script>
+    <script>
+        const section = document.querySelector('section');
+        const requestURL = 'doc.json';
+        const request = new XMLHttpRequest();
+        request.open('GET', requestURL);
+        request.responseType = 'json';
+        request.send();
+        request.onload = function() {
+            const cursos = request.response;
+            console.log(cursos);
+            mostrarCursos(cursos['cursos']);
+        }
 
+        function mostrarCursos(cursos) {
+
+        }
+    </script>
 </body>
 
 </html>
