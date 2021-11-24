@@ -5,7 +5,7 @@ let test = '';
 function testVal(dato) {
     let text = document.createTextNode(dato);
     element.appenchild(text)
-    document.getElementById("body:page").appendChild(element);
+    document.getElementById("body_page").appendChild(element);
 }
 
 function enviarDatos() {
@@ -28,7 +28,7 @@ function enviarDatos() {
         modalMostrar("Falta ingresar Email");
         estado = false;
     } else if (textarea.value == '') {
-        modalMostrar("Falta ingresar su consulta \n");
+        modalMostrar("Falta ingresar su consulta \n"); 
         estado = false;
     }
     if (estado = true) {
