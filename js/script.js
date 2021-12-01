@@ -28,7 +28,7 @@ function enviarDatos() {
         modalMostrar("Falta ingresar Email");
         estado = false;
     } else if (textarea.value == '') {
-        modalMostrar("Falta ingresar su consulta \n"); 
+        modalMostrar("Falta ingresar su consulta \n");
         estado = false;
     }
     if (estado = true) {
