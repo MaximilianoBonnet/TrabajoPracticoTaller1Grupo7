@@ -293,3 +293,7 @@ body {
 .modal-close {
     transform: translateY(0%);
 }
+
+.body-login2 {
+    background-color: rgba(180, 170, 157, 0.664);
+}
