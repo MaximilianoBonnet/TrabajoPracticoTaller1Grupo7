@@ -182,3 +182,58 @@ body {
     margin: 2%;
     background-color: #f6f8f8
 }
+
+.login {
+    position: center;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    padding: 40px;
+    background: rgba(233, 100, 12, 0.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(61, 59, 59, 0.5);
+    border-radius: 10px;
+}
+
+.login h1 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: rgb(9, 53, 248);
+    text-align: center;
+}
+
+.login .inputlogin {
+    position: relative;
+}
+
+.login .inputlogin input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.login .inputlogin label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.login .inputlogin input:focus~label,
+.login .inputlogin input:valid~label {
+    top: -18px;
+    left: 0;
+    color: #03a9f4;
+    font-size: 10px;
+}

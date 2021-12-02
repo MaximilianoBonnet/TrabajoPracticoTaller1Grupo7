@@ -1,0 +1,19 @@
+{
+    "users": [{
+            "idUser": 1,
+            "user": "admin",
+            "temp": "maxi",
+            "password": "AB3691D8E45C1F50684B2762FC640AFBE61266BF49C34E0A5319044DA23AF364",
+            "perfil": "admin",
+            "status": true
+        },
+        {
+            "idUser": 2,
+            "user": "usuario",
+            "temp": "pass",
+            "password": "D74FF0EE8DA3B9806B18C877DBF29BBDE50B5BD8E4DAD7A3A725000FEB82E8F1",
+            "perfil": "admin",
+            "status": true
+        }
+    ]
+}
