@@ -16,10 +16,9 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
@@ -36,15 +35,14 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contacto.html">Contacto</a>
                     </li>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="comoLlegar.html">Como llegar</a>
                     </li>
                 </ul>
-                <form class="d-flex">
-                    <button href="login.html" class="btn btn-outline-success" type="submit">Login</button>
-                </form>
             </div>
+            <ul>
+                <button class="btn btn-outline-success" type="submit">Login</button>
+            </ul>
         </div>
     </nav>
     <center>
@@ -58,66 +56,68 @@
                 <h1 class="titleQuienesSomos">Contacto</h1>
             </div>
         </center>
+        <div class="box">
+            <form action="" class="form_envio">
+                <h2>CONTACTO</h2>
+                <div class="textboxes">
+                    <div class="inputTexto">
+                        <input type="text" id="nomYAp" name="Nombre y Apellido" placeholder="Nombre y Apellido"><br>
+                    </div>
+                    <div id='errorNombreYAp'>
 
-        <div class="container">
-            <div class="flex-container">
-                <div class="col-md-8">
-                    <label for="exampleFormNombre" class="form-label">Nombres</label>
-                    <input id="nombre" name="nombre" type="nombres" class="form-control" id="exampleFormNombre" placeholder="Nombres" aria-label="Nombres">
-                </div>
-                <div class="col-md-8">
-                    <label for="exampleFormApellido" class="form-label">Apellidos</label>
-                    <input id="apellido" name="apellido" type="apellidos" class="form-control" id="exampleFormApellido" placeholder="Apellidos" aria-label="Apellidos">
-                </div>
-                <div class="col-md-8">
-                    <label for="exampleFormTelefono" class="form-label">Telefono</label>
-                    <input id="telefono" name="telefono" type="Telefono" class="form-control" id="exampleFormTelefono" placeholder="Telefono" aria-label="Telefono">
-                </div>
-                <div class="col-md-8">
-                    <label for="exampleFormControlInput1" class="form-label">Direccion de Email</label>
-                    <input id="email" name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@email.com">
-                </div>
-                <div class="col-md-12">
-                    <label for="exampleFormControlTextarea1" class="form-label">Escriba su consulta ...</label>
-                    <textarea id="info" name="info" class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
-                </div>
-                <br>
-                <div>
-                    <a href="#" class="cta">Enviar</a>
-                </div>
-            </div>
-        </div>
+                    </div>
+                    <div class="inputTexto">
+                        <input type="text" id="Email" name="Email" placeholder="Email"><br>
+                    </div>
+                    <div id='errorEmail'>
 
+                    </div>
+                    <div class="inputTexto">
+                        <input type="text" id="Telefono" name="Telefono" placeholder="Telefono"><br>
+                    </div>
+                    <div id='errorTelefono'>
+
+                    </div>
+                    <div class="inputTexto">
+                        <textarea name="Comentario" id="Comentario" placeholder="Deje aqui su comentario"></textarea><br>
+                    </div>
+                    <div id='errorComentario'>
+
+                    </div>
+                    <input class="cerrar_datos_ingresados" type="submit" onclick='return enviarFormulario();' value="ENVIAR" id="boton">
+                </div>
+            </form>
     </center>
     <!-- Modal -->
-    <div class="modal-container">
-        <div class="modal modal-close">
-            <p class="close">OK</p>
-            <div class="modal-textos">
-                <h2>Esta seguro de enviar?</h2>
-            </div>
+    <div id="modal_container" class="modal-container">
+        <div class="modal_contacto">
+            <h3>Your Own Way Instituto</h3>
+            <p>
+                ¿Esta seguro que desea enviar el comentario?
+            </p>
+            <button id="send">SI</button>
+            <button id="close">NO</button>
         </div>
     </div>
-    <script src="js\script.js"></script>
-    <!--
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-container">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel"></h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body" id="textModal">
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Understood</button>
-                </div>
-            </div>
+    <div id="modal_container2" class="modal-container">
+        <div class="datos_ingresados_modal">
+            <h3>Datos enviados exitosamente</h3>
+            <p>Nombre y apellido:
+                <div id='nombre_apellido_modal'></div>
+            </p><br>
+            <p>Email:
+                <div id='email_modal'></div>
+            </p><br>
+            <p>Telefono
+                <div id='telefono_modal'></div>
+            </p><br>
+            <p>Comentario:
+                <div id='comentario_modal'></div>
+            </p><br>
+            <button class="cerrar_datos_ingresados" id="cerrar_datos_ingresados">CERRAR</button>
         </div>
     </div>
-    -->
+    <script src="js/contacto.js"></script>
     <br>
     <div id="card-footer" class="card-footer bg-darkligh">
         <div class="row">
