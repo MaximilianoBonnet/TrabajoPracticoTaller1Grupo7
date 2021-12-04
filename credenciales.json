@@ -2,7 +2,6 @@
     "users": [{
             "idUser": 1,
             "user": "admin",
-            "temp": "maxi",
             "password": "ab3691d8e45c1f50684b2762fc640afbe61266bf49c34e0a5319044da23af364",
             "perfil": "admin",
             "status": true
@@ -10,7 +9,6 @@
         {
             "idUser": 1,
             "user": "usuario",
-            "temp": "messi",
             "password": "9bcdae8ebc2a970a365103a52da830f3958f4f381fcfd544f7c0452ee09dba00",
             "perfil": "admin",
             "status": true
