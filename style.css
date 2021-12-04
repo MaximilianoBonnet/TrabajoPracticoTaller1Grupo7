@@ -390,3 +390,7 @@ textarea {
     opacity: 0.7;
     font-size: 14px;
 }
+
+.body-login2 {
+    background-color: rgba(180, 170, 157, 0.664);
+}
