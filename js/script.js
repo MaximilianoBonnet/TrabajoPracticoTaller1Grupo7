@@ -2,55 +2,83 @@ console.log("Mi página");
 
 let test = '';
 
-function testVal(dato) {
-    let text = document.createTextNode(dato);
-    element.appenchild(text)
-    document.getElementById("body_page").appendChild(element);
-}
+var nombreYApellido = document.getElementById('nomYAp');
+var Email = document.getElementById('Email');
+var Telefono = document.getElementById('Telefono');
+var Comentario = document.getElementById('Comentario');
+var errorNombreYAp = document.getElementById('errorNombreYAp');
+var errorEmail = document.getElementById('errorEmail');
+var errorTelefono = document.getElementById('errorTelefono');
+var errorComentario = document.getElementById('errorComentario');
+errorNombreYAp.style.color = 'red';
+errorEmail.style.color = 'red';
+errorTelefono.style.color = 'red';
+errorComentario.style.color = 'red';
 
-function enviarDatos() {
-    let nombre = document.getElementById("nombre");
-    let apellido = document.getElementById("apellido");
-    let email = document.getElementById("email");
-    let telefono = document.getElementById("telefono");
-    let textarea = document.getElementById("info");
-    let estado = true;
-    if (nombre.value == '') {
-        modalMostrar("Falta ingresar nombre \n");
-        estado = false;
-    } else if (apellido.value == '') {
-        modalMostrar("Falta ingresar apellido \n");
-        estado = false;
-    } else if (telefono.value == '') {
-        modalMostrar("Falta ingresar telefono \n");
-        estado = false;
-    } else if (email.value == '') {
-        modalMostrar("Falta ingresar Email");
-        estado = false;
-    } else if (textarea.value == '') {
-        modalMostrar("Falta ingresar su consulta \n");
-        estado = false;
-    }
-    if (estado = true) {
-        modalMostrar("Mensaje enviado con éxito. \n Nos pondremos en contacto a la brevedad");
+function enviarFormulario() {
+    var mostrarModal = true;
+    if (nombreYApellido.value === null | nombreYApellido.value === '') {
+        errorNombreYAp.innerHTML = 'ingresa tu nombre y apellido';
+        mostrarModal = false;
+    } else {
+        errorNombreYAp.innerHTML = '';
     }
 
+    if (Email.value === null | Email.value === '') {
+        errorEmail.innerHTML = 'ingresa tu email';
+        mostrarModal = false
+    } else {
+        errorEmail.innerHTML = '';
+    }
+
+    if (Telefono.value === null | Telefono.value === '') {
+        errorTelefono.innerHTML = 'ingresa tu telefono';
+        mostrarModal = false
+    } else {
+        errorTelefono.innerHTML = '';
+    }
+
+    if (Comentario.value === null | Comentario.value === '') {
+        errorComentario.innerHTML = 'ingresa un comentario';
+        mostrarModal = false
+    } else {
+        errorComentario.innerHTML = '';
+    }
+
+    if (mostrarModal) {
+        modal_container.classList.add('show');
+    }
+
+    return false;
 }
 
-function modalMostrar(title, description) {
-    let elementTitle = document.getElementById('exampleModalLabel');
-    title = document.createTextNode(title);
+const boton_enviar = document.getElementById('send');
+const modal_container = document.getElementById('modal_container');
+const modal_container2 = document.getElementById('modal_container2');
+const boton_close = document.getElementById('close');
+const boton_cerrar_datos_ingresados = document.getElementById('cerrar_datos_ingresados');
 
 
-    let elementDescription = document.getElementById('textModal');
-    description = document.createTextNode(description);
+boton_close.addEventListener('click', () => {
+    modal_container.classList.remove('show');
+});
 
-    elementTitle.innerHTML = title;
-    elementDescription.innerHTML = description;
+boton_enviar.addEventListener('click', () => {
+    modal_container.classList.remove('show');
+    var nombreYApDiv = document.getElementById('nombre_apellido_modal');
+    var emailModalDiv = document.getElementById('email_modal');
+    var telefonoModalDiv = document.getElementById('telefono_modal');
+    var comentarioModalDiv = document.getElementById('comentario_modal');
 
 
-    var myModal = new bootstrap.Modal(document.getElementById('staticBackdrop'), {
-        keyboard: false
-    })
-    myModal.show();
-}
+    nombreYApDiv.innerHTML = nombreYApellido.value;
+    emailModalDiv.innerHTML = Email.value;
+    telefonoModalDiv.innerHTML = Telefono.value;
+    comentarioModalDiv.innerHTML = Comentario.value;
+
+    modal_container2.classList.add('show');
+});
+
+boton_cerrar_datos_ingresados.addEventListener('click', () => {
+    modal_container2.classList.remove('show');
+});

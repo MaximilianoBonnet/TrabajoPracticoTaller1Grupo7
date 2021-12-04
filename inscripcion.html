@@ -53,46 +53,73 @@
         </div>
     </center>
     <center>
-
         <div>
-
-            <h1 class="titleQuienesSomos">Pre Inscripcion a YOUR OWN WAY Institute</h1>
+            <h1 class="titleQuienesSomos">Pre Inscripcion</h1>
         </div>
-
     </center>
-    </br>
     </br>
     <center>
-        <div class="flex-container">
-            <form method="GET" action="inscripcion.html">
+        <div class="box">
+            <form action="" class="form_envio">
                 <h3>Pre Inscripcion a YOUR OWN WAY Institute</h3>
-                <div class="row">
-                    <div class="col-md-4">
-                        <label for="exampleFormNombre" class="form-label">Nombres</label>
-                        <input id="nombre" name="nombre" type="nombres" class="form-control" id="exampleFormNombre" placeholder="Nombres" aria-label="Nombres">
+                <div class="textboxes">
+                    <div class="inputTexto">
+                        <input type="text" id="nomYAp" name="Nombre y Apellido" placeholder="Nombre y Apellido"><br>
                     </div>
-                    <div class="col-md-4">
-                        <label for="exampleFormApellido" class="form-label">Apellidos</label>
-                        <input id="apellido" name="apellido" type="apellidos" class="form-control" id="exampleFormApellido" placeholder="Apellidos" aria-label="Apellidos">
+                    <div id='errorNombreYAp'>
+
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <label for="exampleFormContromail" class="form-label">Direccion de Email</label>
-                        <input id="email" name="email" type="email" class="form-control" id="exampleFormContromail" placeholder="nombre@email.com">
+                    <div class="inputTexto">
+                        <input type="text" id="Email" name="Email" placeholder="Email"><br>
                     </div>
-                    <div class="col-md-4">
-                        <label for="exampleFormTelefono" class="form-label">Telefono</label>
-                        <input id="telefono" name="telefono" type="Telefono" class="form-control" id="exampleFormTelefono" placeholder="Solo numeros">
+                    <div id='errorEmail'>
+
                     </div>
-                </div>
-                <br>
-                <div class="input-group d-sm-inline-block">
-                    <button type="submit" onclick="enviarDatos()" class="btn btn-success" type="button" id="button-addon1">Enviar</button>
+                    <div class="inputTexto">
+                        <input type="text" id="Telefono" name="Telefono" placeholder="Telefono"><br>
+                    </div>
+                    <div id='errorTelefono'>
+                    </div>
+                    <div class="inputTexto">
+                        <textarea name="Comentario" id="Comentario" placeholder="Curso de interes"></textarea><br>
+                    </div>
+                    <div id='errorComentario'>
+
+                    </div>
+                    <input class="cerrar_datos_ingresados" type="submit" onclick='return enviarFormulario();' value="ENVIAR" id="boton">
                 </div>
             </form>
-        </div>
     </center>
+    <!-- Modal -->
+    <div id="modal_container" class="modal-container">
+        <div class="modal_contacto">
+            <h3>Your Own Way Instituto</h3>
+            <p>
+                ¿Enviar Pre Inscripcion?
+            </p>
+            <button id="send">SI</button>
+            <button id="close">NO</button>
+        </div>
+    </div>
+    <div id="modal_container2" class="modal-container">
+        <div class="datos_ingresados_modal">
+            <h1>Datos enviados exitosamente</h1>
+            <p>Nombre y apellido:
+                <div id='nombre_apellido_modal'></div>
+            </p><br>
+            <p>Email:
+                <div id='email_modal'></div>
+            </p><br>
+            <p>Telefono
+                <div id='telefono_modal'></div>
+            </p><br>
+            <p>Curso de interes:
+                <div id='comentario_modal'></div>
+            </p><br>
+            <button class="cerrar_datos_ingresados" id="cerrar_datos_ingresados">CERRAR</button>
+        </div>
+    </div>
+    <script src="js/contacto.js"></script>
     <br>
     <div id="card-footer" class="card-footer bg-darkligh">
         <div class="row">
