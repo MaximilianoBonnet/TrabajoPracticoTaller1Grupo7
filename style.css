@@ -279,7 +279,7 @@ form {
     box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
 }
 
-h2 {
+h3 {
     color: rgb(0, 0, 0);
     text-align: center;
     margin: 0;
@@ -363,7 +363,7 @@ button {
     text-align: center;
 }
 
-.modal h3 {
+.modal h1 {
     margin: 0;
 }
 
