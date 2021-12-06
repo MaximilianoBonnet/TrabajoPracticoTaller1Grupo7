@@ -7,8 +7,6 @@
     height: 65px;
 }
 
-.navbar {}
-
 .logo {
     width: 130px;
     cursor: pointer;
@@ -197,7 +195,6 @@ body {
     height: 29rem;
     color: black;
     background-color: #f6f8f8
-    
 }
 
 .formulariocomentarios {
