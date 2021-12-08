@@ -1,0 +1,64 @@
+[{
+        "id": 1,
+        "tipo": "Curso",
+        "nombre": "TALLER DDE ORALIDAD Y ESCRITURA",
+        "precio": [
+            "ARS$",
+            2500
+        ],
+        "imagen": "../img/Cursos/CURSOS (1).png",
+        "descripción": "DURACION UN MES UNA CLASE POR SEMANA"
+    }, {
+        "id": 2,
+        "tipo": "Curso",
+        "nombre": "FCE",
+        "precio": [
+            "ARS$",
+            6500
+        ],
+        "imagen": "../img/Cursos/CURSOS (2).png",
+        "descripción": "FIRST CERTIFICATE IN ENGLISH"
+    }, {
+        "id": 3,
+        "tipo": "Curso",
+        "nombre": "INTENSIVE I",
+        "precio": [
+            "ARS$",
+            4500
+        ],
+        "imagen": "../img/Cursos/CURSOS (3).png",
+        "descripción": "Educacion dedicada intensiva"
+    }, {
+        "id": 4,
+        "tipo": "Curso",
+        "nombre": "FIRST CHILDREN",
+        "precio": [
+            "ARS$",
+            2900
+        ],
+        "imagen": "../img/Cursos/CURSOS (4).png",
+        "descripción": "De 7 a 11 años"
+    }, {
+        "id": 5,
+        "tipo": "Curso",
+        "nombre": "SECOND TEENS",
+        "precio": [
+            "ARS$",
+            3500
+        ],
+        "imagen": "../img/Cursos/CURSOS (5).png",
+        "descripción": "desde 12 Años"
+    }, {
+        "id": 6,
+        "tipo": "Curso",
+        "nombre": "THIRD ADULTS",
+        "precio": [
+            "ARS$",
+            4500
+        ],
+        "imagen": "../img/Cursos/CURSOS (6).png",
+        "descripción": "2 veces a la semana"
+    }
+
+
+]
