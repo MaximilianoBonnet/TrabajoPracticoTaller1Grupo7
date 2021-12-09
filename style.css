@@ -198,8 +198,8 @@ body {
 }
 
 .formulariocomentarios {
-    width: 700px;
-    height: auto;
+    width: 750px;
+    height: justified;
     text-align: center;
     padding-left: 1%;
     padding-top: 1%;
