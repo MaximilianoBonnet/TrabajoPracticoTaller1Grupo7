@@ -31,17 +31,17 @@
     }, {
         "id": 4,
         "tipo": "Curso",
-        "nombre": "FIRST CHILDREN",
+        "nombre": "1st CHILDREN",
         "precio": [
             "ARS$",
             2900
         ],
-        "imagen": "../img/Cursos/CURSOS (4).png",
+        "imagen": "../img/Cursos/CURSOS (6).png",
         "descripción": "De 7 a 11 años"
     }, {
         "id": 5,
         "tipo": "Curso",
-        "nombre": "SECOND TEENS",
+        "nombre": "2nd TEENS",
         "precio": [
             "ARS$",
             3500
@@ -51,7 +51,7 @@
     }, {
         "id": 6,
         "tipo": "Curso",
-        "nombre": "THIRD ADULTS",
+        "nombre": "3rd ADULTS",
         "precio": [
             "ARS$",
             4500
