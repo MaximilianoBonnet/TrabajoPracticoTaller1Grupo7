@@ -12,7 +12,7 @@
         {
             "id": 2,
             "tipo": "Curso",
-            "nombre": "First Certificate in English",
+            "nombre": "First Certificate in English - FCE",
             "precio": "ARS$ 3000",
             "imagen": "../TrabajoPracticoTaller1Grupo7/img/Cursos/CURSOS (2).png",
             "descripcion": "FIRST CERTIFICATE IN ENGLISH",
@@ -58,6 +58,60 @@
             "descripcion": "2 veces a la semana",
             "pagina": "1stChildren.html",
             "cursoDestacado": true
+        },
+        {
+            "id": 7,
+            "tipo": "Curso",
+            "nombre": "Kinder y Pre-Children",
+            "precio": "ARS$ 2500",
+            "imagen": "../TrabajoPracticoTaller1Grupo7/img/kinder and pre children foto.jpg",
+            "descripcion": "Edad 4 a 6 años",
+            "cursoDestacado": false
+        },
+        {
+            "id": 8,
+            "tipo": "Curso",
+            "nombre": "Children por Nivel",
+            "precio": "ARS$ 2500",
+            "imagen": "../TrabajoPracticoTaller1Grupo7/img/childrenCurso.jpg",
+            "descripcion": "De 7 a 11 años,2 veces a la semana",
+            "cursoDestacado": false
+        },
+        {
+            "id": 9,
+            "tipo": "Curso",
+            "nombre": "Adolescentes por Nivel",
+            "precio": "ARS$ 2500",
+            "imagen": "../TrabajoPracticoTaller1Grupo7/img/teens.png",
+            "descripcion": "Disponibilidad s consultar",
+            "cursoDestacado": false
+        },
+        {
+            "id": 10,
+            "tipo": "Curso",
+            "nombre": "Ingles para Adultos",
+            "precio": "ARS$ 2500",
+            "imagen": "../TrabajoPracticoTaller1Grupo7/img/cursosAdultosok.png",
+            "descripcion": "2 veces a la semana (incluye conversación)",
+            "cursoDestacado": false
+        },
+        {
+            "id": 11,
+            "tipo": "Curso",
+            "nombre": "Ingles Tecnico Bussines",
+            "precio": "ARS$ 2500",
+            "imagen": "../TrabajoPracticoTaller1Grupo7/img/conversacionTecnica.jpg",
+            "descripcion": "Para profesionales o estudiantes",
+            "cursoDestacado": false
+        },
+        {
+            "id": 12,
+            "tipo": "Curso",
+            "nombre": "First Certificate In English",
+            "precio": "ARS$ 2500",
+            "imagen": "../TrabajoPracticoTaller1Grupo7/img/first foto.jpg",
+            "descripcion": "3 veces a la semana",
+            "cursoDestacado": false
         }
     ]
 }
