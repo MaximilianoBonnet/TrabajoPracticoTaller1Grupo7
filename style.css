@@ -198,15 +198,19 @@ body {
 }
 
 .formulariocomentarios {
-    width: 700px;
+    width: 120%;
     height: auto;
-    text-align: center;
-    padding-left: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    background: #ffffff;
+    text-align: auto;
     border: 5%;
-    margin: 2%;
-    background-color: #f6f8f8
+    margin: auto;
+    display: block;
+    align-content: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    border: 2px;
 }
 
 .login {
@@ -294,7 +298,7 @@ form {
     width: 40%;
     height: 50%;
     margin: auto;
-    background: #000000;
+    background: #ffffff;
     padding: 10px 20px;
     box-sizing: border-box;
     margin-top: 20px;

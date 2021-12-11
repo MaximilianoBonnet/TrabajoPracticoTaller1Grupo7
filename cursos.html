@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <script src="js/cursos.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/funciones.js"></script>
     <title>Cursos</title>
 </head>
 
@@ -54,7 +56,20 @@
         </div>
     </center>
     <section>
-        <div class="container-fluid">
+
+        <div class="cursos">
+            <div class="col-md-14 p-lg-14 mx-auto row" id="listaCursos">
+            </div>
+        </div>
+        <div class="cursos" id="setOrdenarAZ">
+            <div class="col-md-14 p-lg-14 mx-auto row" id="ordenar_AZ">
+            </div>
+        </div>
+        <div class="cursos" id="setOrdenarZA">
+            <div class="col-md-14 p-lg-14 mx-auto row" id="ordenar_ZA">
+            </div>
+        </div>
+        <!-- <div class="container-fluid">
             <div class="row">
                 <div class="col-2">
                     <div class="cards">
@@ -137,7 +152,13 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
+        <li class="nav-item"><a class="nav-link text-truncate" href="#"><i class="fas fa-sort-alpha-down"
+            style="color: #21d192; text-shadow: 0 1px 2px black;"></i>
+        <span class=" d-sm-inline" onclick="setOrdenarAZ()">Ordenar de A->Z</span></a></li>
+        <li class="nav-item"><a class="nav-link text-truncate" href="#"><i class="fas fa-sort-alpha-down-alt"
+            style="color: #21d192; text-shadow: 0 1px 2px black;"></i>
+        <span class=" d-sm-inline" onclick="setOrdenarZA()">Ordenar de Z->A</span></a></li>ss
     </section>
     <br>
     <section>
