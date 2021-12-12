@@ -23,6 +23,7 @@ function getParameterByName(name) {
 
 let params = new URLSearchParams(location.search);
 
+// Ordeno objetos de Json
 function ordenarJSON(data, key, orden) {
     return data.sort(function(a, b) {
         var x = a[key],
@@ -38,6 +39,7 @@ function ordenarJSON(data, key, orden) {
     });
 }
 
+// Muestro destacados de indez
 function setTablaDestacados() {
     let destacados = productos.cursos;
     destacados.forEach(element => {
@@ -63,6 +65,7 @@ function setTablaDestacados() {
     });
 }
 
+// Muestro cursos al cargar pagina
 function setCursos() {
 
     let listaCursos = productos.cursos;
@@ -85,6 +88,7 @@ function setCursos() {
     ocultarOrdenamientoAZ();
 }
 
+// Ordeno Az
 function setOrdenarAZ() {
 
     let listaCursos = productos.cursos;
@@ -111,6 +115,7 @@ function setOrdenarAZ() {
     ocultarOrdenamientoZA();
 }
 
+//Ordeno ZA
 function setOrdenarZA() {
 
     let listaCursos = productos.cursos;
@@ -155,8 +160,6 @@ function mostrarOrdenarAZ() {
     var x = document.getElementById("mostrarOcultarOrdenarAZ");
     if (x.style.display != "none") {
         x.style.display = "none";
-        // ocultarCursos();
-        // ocultarOrdenamientoZA();
         refreshPage();
     } else {
         x.style.display = "block";
@@ -169,8 +172,6 @@ function mostrarOrdenarZA() {
     var x = document.getElementById("mostrarOcultarOrdenarZA");
     if (x.style.display != "none") {
         x.style.display = "none";
-        // ocultarCursos();
-        // ocultarOrdenamientoAZ();
         refreshPage();
     } else {
         x.style.display = "block";
@@ -184,16 +185,19 @@ function ocultarCursos() {
     ordenarCursosNone.style.display = "none";
 }
 
+//oculto ordenamiento ZA
 function ocultarOrdenamientoZA() {
     var ordenarAZNone = document.getElementById("mostrarOcultarOrdenarZA");
     ordenarAZNone.style.display = "none";
 }
 
+//oculto ordenamiento AZ
 function ocultarOrdenamientoAZ() {
     var ordenarZANone = document.getElementById("mostrarOcultarOrdenarAZ");
     ordenarZANone.style.display = "none";
 }
 
+//refresco pagina
 function refreshPage() {
     window.location.reload();
 }
