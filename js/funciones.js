@@ -155,23 +155,23 @@ function mostrarOrdenarAZ() {
     var x = document.getElementById("mostrarOcultarOrdenarAZ");
     if (x.style.display != "none") {
         x.style.display = "none";
-        ocultarCursos();
-        ocultarOrdenamientoZA();
+        // ocultarCursos();
+        // ocultarOrdenamientoZA();
+        refreshPage();
     } else {
         x.style.display = "block";
         ocultarCursos();
         ocultarOrdenamientoZA();
     }
-
-
 }
 
 function mostrarOrdenarZA() {
     var x = document.getElementById("mostrarOcultarOrdenarZA");
     if (x.style.display != "none") {
         x.style.display = "none";
-        ocultarCursos();
-        ocultarOrdenamientoAZ();
+        // ocultarCursos();
+        // ocultarOrdenamientoAZ();
+        refreshPage();
     } else {
         x.style.display = "block";
         ocultarCursos();
@@ -192,4 +192,8 @@ function ocultarOrdenamientoZA() {
 function ocultarOrdenamientoAZ() {
     var ordenarZANone = document.getElementById("mostrarOcultarOrdenarAZ");
     ordenarZANone.style.display = "none";
+}
+
+function refreshPage() {
+    window.location.reload();
 }
