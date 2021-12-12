@@ -160,6 +160,7 @@ function mostrarOrdenarAZ() {
     var x = document.getElementById("mostrarOcultarOrdenarAZ");
     if (x.style.display != "none") {
         x.style.display = "none";
+        x.style.display = "block";
         refreshPage();
     } else {
         x.style.display = "block";
@@ -172,6 +173,7 @@ function mostrarOrdenarZA() {
     var x = document.getElementById("mostrarOcultarOrdenarZA");
     if (x.style.display != "none") {
         x.style.display = "none";
+        x.style.display = "block";
         refreshPage();
     } else {
         x.style.display = "block";
