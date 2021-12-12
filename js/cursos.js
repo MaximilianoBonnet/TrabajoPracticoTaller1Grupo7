@@ -8,6 +8,7 @@ var productos = '';
 request.onload = function() {
     console.log(request.response);
     productos = request.response;
-    setTablaDestacados(); //funcion que trae productos destacados
-    // setCursos(); //funcion que carga los cursos en cursos.html
+    setCursos(); //funcion que carga los cursos en cursos.html
+    setOrdenarAZ();
+    setOrdenarZA();
 }

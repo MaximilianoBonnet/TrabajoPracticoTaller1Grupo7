@@ -23,6 +23,21 @@ function getParameterByName(name) {
 
 let params = new URLSearchParams(location.search);
 
+function ordenarJSON(data, key, orden) {
+    return data.sort(function(a, b) {
+        var x = a[key],
+            y = b[key];
+
+        if (orden === 'asc') {
+            return ((x < y) ? -1 : ((x > y) ? 1 : 0));
+        }
+
+        if (orden === 'desc') {
+            return ((x > y) ? -1 : ((x < y) ? 1 : 0));
+        }
+    });
+}
+
 function setTablaDestacados() {
     let destacados = productos.cursos;
     destacados.forEach(element => {
@@ -44,12 +59,12 @@ function setTablaDestacados() {
             let gallery = document.getElementById('gallery_view');
             $('#gallery_view').append(elementGalery);
 
-            console.log(element);
         }
     });
 }
 
 function setCursos() {
+
     let listaCursos = productos.cursos;
     listaCursos.forEach(element => {
         if (element.cursoDestacado == false) {
@@ -64,31 +79,17 @@ function setCursos() {
             elementListaCursos += '</div></a></div></div>';
             let gallery = document.getElementById('listaCursos');
             $('#listaCursos').append(elementListaCursos);
-
-            console.log(element);
         }
     });
-}
-
-function sortJSON(data, key, orden) {
-    return data.sort(function(a, b) {
-        var x = a[key],
-            y = b[key];
-
-        if (orden === 'asc') {
-            return ((x < y) ? -1 : ((x > y) ? 1 : 0));
-        }
-
-        if (orden === 'desc') {
-            return ((x > y) ? -1 : ((x < y) ? 1 : 0));
-        }
-    });
+    ocultarOrdenamientoZA();
+    ocultarOrdenamientoAZ();
 }
 
 function setOrdenarAZ() {
 
     let listaCursos = productos.cursos;
-    var oJSON = sortJSON(listaCursos, 'nombre', 'asc');
+    var oJSON = ordenarJSON(listaCursos, 'nombre', 'asc');
+
     oJSON.forEach(element => {
         if (element.cursoDestacado == false) {
 
@@ -107,12 +108,13 @@ function setOrdenarAZ() {
             console.log(element);
         }
     });
+    ocultarOrdenamientoZA();
 }
 
 function setOrdenarZA() {
 
     let listaCursos = productos.cursos;
-    var oJSON = sortJSON(listaCursos, 'nombre', 'desc');
+    var oJSON = ordenarJSON(listaCursos, 'nombre', 'desc');
     oJSON.forEach(element => {
         if (element.cursoDestacado == false) {
 
@@ -132,4 +134,62 @@ function setOrdenarZA() {
             console.log(element);
         }
     });
+    ocultarOrdenamientoAZ();
+}
+
+function mostrarCursos() {
+    var x = document.getElementById("mostrarOcultarCursos");
+    if (x.style.display != "none") {
+        x.style.display = "none";
+        ocultarOrdenamientoAZ();
+        ocultarOrdenamientoZA();
+    } else {
+        x.style.display = "block";
+        ocultarOrdenamientoZA();
+        ocultarOrdenamientoAZ();
+    }
+}
+
+
+function mostrarOrdenarAZ() {
+    var x = document.getElementById("mostrarOcultarOrdenarAZ");
+    if (x.style.display != "none") {
+        x.style.display = "none";
+        ocultarCursos();
+        ocultarOrdenamientoZA();
+    } else {
+        x.style.display = "block";
+        ocultarCursos();
+        ocultarOrdenamientoZA();
+    }
+
+
+}
+
+function mostrarOrdenarZA() {
+    var x = document.getElementById("mostrarOcultarOrdenarZA");
+    if (x.style.display != "none") {
+        x.style.display = "none";
+        ocultarCursos();
+        ocultarOrdenamientoAZ();
+    } else {
+        x.style.display = "block";
+        ocultarCursos();
+        ocultarOrdenamientoAZ();
+    }
+}
+
+function ocultarCursos() {
+    var ordenarCursosNone = document.getElementById("listaCursos");
+    ordenarCursosNone.style.display = "none";
+}
+
+function ocultarOrdenamientoZA() {
+    var ordenarAZNone = document.getElementById("mostrarOcultarOrdenarZA");
+    ordenarAZNone.style.display = "none";
+}
+
+function ocultarOrdenamientoAZ() {
+    var ordenarZANone = document.getElementById("mostrarOcultarOrdenarAZ");
+    ordenarZANone.style.display = "none";
 }
